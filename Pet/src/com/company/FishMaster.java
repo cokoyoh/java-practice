@@ -6,7 +6,7 @@ public class FishMaster {
 
         fish.dive(2);
 
-        fish.dive(3);
+        fish.dive(130);
 
         String fishReaction;
         fishReaction = fish.talk("Hello");
