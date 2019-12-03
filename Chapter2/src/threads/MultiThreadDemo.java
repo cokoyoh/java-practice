@@ -5,7 +5,7 @@ public class MultiThreadDemo {
 
         Thread thread = new Thread(() -> {
             for (int index = 0; index < 5 ; index++) {
-                System.out.println("The value of " + index + " to the power of 4 is " + index * index * index * index);
+                System.out.println("The value of " + index + " to the power of 4 is " + index * index * index * index * Math.sqrt(index));
             }
         });
 
